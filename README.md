@@ -44,7 +44,7 @@ lidar/
 
 ## Prerequisites
 
-- **Ubuntu 22.04 LTS** (development PC)  
+- **Ubuntu 24.04 LTS** (development PC)  
 - **ROS2 Jazzy** installed  
 - `colcon` build tool  
 - `rplidar_ros` submodule (already included)
@@ -96,9 +96,9 @@ rviz2
 
 ## Notes
 
-- The \`rplidar_ros\` submodule points to the official ROS2 driver.  
+- The `rplidar_ros` submodule points to the official ROS2 driver.  
 - All paths and configurations assume the standard ROS2 workspace layout.  
-- Screenshots and media are stored in the \`media/\` folder.  
+- Screenshots and media are stored in the `media/` folder.  
 
 ---
 
@@ -106,4 +106,4 @@ rviz2
 
 - [RPLIDAR A1 Official Documentation](https://www.slamtec.com/en/Lidar/A1)  
 - [rplidar_ros GitHub Repo](https://github.com/robopeak/rplidar_ros)  
-- [ROS2 Jazzy Documentation](https://docs.ros.org/en/jazzy/)"
+- [ROS2 Jazzy Documentation](https://docs.ros.org/en/jazzy/)
