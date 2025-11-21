@@ -19,7 +19,7 @@ It is designed to be used in robotics projects, including autonomous navigation 
 
 ## Project Structure
 
-\`\`\`
+```text
 lidar/
 │── my_robot/                # Custom ROS2 package
 │   ├── launch/              # Launch files
@@ -30,7 +30,7 @@ lidar/
 │   └── lidar_scan.png       # Example LIDAR scan
 │── README.md                # This file
 
-\`\`\`
+```
 
 ---
 
@@ -55,17 +55,17 @@ lidar/
 
 1. **Clone the repository recursively** (to include the submodule):
 
-\`\`\`bash
+```bash
 git clone --recursive https://github.com/Manar-Daghsni/RPLIDAR-A1-ROS2.git
 cd RPLIDAR-A1-ROS2
-\`\`\`
+```
 
 2. **Build the workspace**:
 
-\`\`\`bash
+```bash
 colcon build
 source install/setup.bash
-\`\`\`
+```
 
 3. **Verify the submodule**:
 
