@@ -107,3 +107,10 @@ rviz2
 - [RPLIDAR A1 Official Documentation](https://www.slamtec.com/en/Lidar/A1)  
 - [rplidar_ros GitHub Repo](https://github.com/robopeak/rplidar_ros)  
 - [ROS2 Jazzy Documentation](https://docs.ros.org/en/jazzy/)
+
+---
+
+## 📧 Contact
+**Manar Daghsni**  
+📧 manardaghsni@gmail.com  
+🔗 https://linkedin.com/in/daghsni-manar  
