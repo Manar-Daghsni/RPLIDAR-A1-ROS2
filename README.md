@@ -1,7 +1,7 @@
 # RPLIDAR A1 – Laser Scanner ROS2 Project
 
 [![ROS2](https://img.shields.io/badge/ROS2-jazzy-orange)](https://docs.ros.org/en/jazzy/)
-[![License](https://img.shields.io/badge/License-MIT-blue)](LICENSE)
+
 
 ---
 
@@ -46,8 +46,8 @@ lidar/
 
 - **Ubuntu 22.04 LTS** (development PC)  
 - **ROS2 Jazzy** installed  
-- \`colcon\` build tool  
-- \`rplidar_ros\` submodule (already included)
+- `colcon` build tool  
+- `rplidar_ros` submodule (already included)
 
 ---
 
@@ -69,9 +69,9 @@ source install/setup.bash
 
 3. **Verify the submodule**:
 
-\`\`\`bash
+```bash
 git submodule update --init --recursive
-\`\`\`
+```
 
 ---
 
@@ -79,15 +79,15 @@ git submodule update --init --recursive
 
 1. **Launch the LIDAR node**:
 
-\`\`\`bash
+```bash
 ros2 launch my_robot lidar_launch.py
-\`\`\`
+```
 
 2. **Open RViz2 for visualization**:
 
-\`\`\`bash
+```bash
 rviz2
-\`\`\`
+```
 
 - Add a **LaserScan** display and subscribe to the topic published by the LIDAR node.  
 - You should see the 360° laser scan in real time.
@@ -99,12 +99,6 @@ rviz2
 - The \`rplidar_ros\` submodule points to the official ROS2 driver.  
 - All paths and configurations assume the standard ROS2 workspace layout.  
 - Screenshots and media are stored in the \`media/\` folder.  
----
-
-
-## License
-
-This project is licensed under the **MIT License**. See [LICENSE](LICENSE) for details.
 
 ---
 
